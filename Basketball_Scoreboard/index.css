@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    background-color: rgb(146, 146, 236);
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.home-name{
+    color: black;
+    text-align: center;
+}
+#home-score-el{
+    background-color: black;
+    color: salmon;
+    font-family: 'Orbitron', sans-serif;
+    padding-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100;
+}
+
+#home-one,#home-two, #home-three{
+    background-color: rgb(146, 146, 236);
+    border-color: black;
+    color: black;
+    font-family: 'Orbitron', sans-serif;
+    padding: 50px;
+    
+}
+
+.guest-name{
+    color: black;
+    text-align: center;
+
+}
+
+#guest-score-el{
+    background-color: black;
+    color: salmon;
+    font-family: 'Orbitron', sans-serif;
+    padding-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100;
+}
+
+#guest-one,#guest-two, #guest-three{
+    background-color: rgb(146, 146, 236);
+    border-color: black;
+    color: black;
+    font-family: 'Orbitron', sans-serif;
+    padding: 50px;
+}
+
+
+#end{
+    background-color: rgb(255, 8, 0);
+    border-color: black;
+    color: black;
+    font-family: 'Orbitron', sans-serif;
+    margin-left: 470;
+    padding: 10;
+}

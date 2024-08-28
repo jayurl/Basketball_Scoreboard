@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(27, 43, 43);
+    display: flexbox;
+    margin-left: 50px;
+}
+
+h1.gen {
+    color: white;
+}
+
+h1.ran {
+    color: rgb(100, 205, 89);
+}
+
+.btn button {
+    background-color: rgb(100, 205, 89);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+    height: 40px;
+}
+
+.passbtn button {
+    background-color: rgb(96, 98, 95);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+    height: 40px;
+}

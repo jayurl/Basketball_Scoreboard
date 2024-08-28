@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <link href='https://fonts.googleapis.com/css?family=Orbitron'
+                rel='stylesheet' type='text/css'>
+            <div class="home">
+                <div class="home-name">
+                    <h1>HOME</h1>
+                </div>
+                <div class="home-score">
+                    <h2 id="home-score-el">
+                        0
+                    </h2>
+                    <button id="home-one" onclick="home_one()">+1</button>
+                    <button id="home-two" onclick="home_two()">+2</button>
+                    <button id="home-three" onclick="home_three()">+3</button>
+                </div>
+            </div>
+            <div class="guest">
+                <div class="guest-name">
+                    <h1>GUEST</h1>
+                </div>
+                <div class="guest-score">
+                    <h2 id="guest-score-el">
+                        0
+                    </h2>
+                    <button id="guest-one" onclick="g_1()">+1</button>
+                    <button id="guest-two" onclick="g_2()">+2</button>
+                    <button id="guest-three" onclick="g_3()">+3</button>
+                </div>
+            </div>
+
+        </div>
+        <button id="end" onclick="end()">END</button>
+        <script src="index.js"></script>
+    </body>
+</html>
